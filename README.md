@@ -20,9 +20,12 @@ Agents.Hello.prompt("what are the risks of reddit?")
 
 # Make sure to run the chuck document step otherwise you'll get an error
 
-# Everything related to this project is located at
-# lib/agents/hello.ex
+# Everything useful related to this project is located at
+# - [lib/agents/hello.ex](https://github.com/theshapguy/rag-elixir/blob/main/lib/agents/hello.ex)
+# - application.ex
 # chunking, embedding, querying, prompting
+
+# You will require Ollama to prompt using this code, however if you are familer with the OpenAI API, changing to it is just changing a few lines of code.
 
 # Using this phoenix project so that I can expand on this later
 ```
